@@ -9,9 +9,9 @@
     Instead of downloading ganache-cli, you also have the option to download the [Ganache Desktop Client](https://truffleframework.com/ganache). This is a nice tool that allows you to run a private Ethereum test network and see all your accounts, block validations and transaction logs.
     
 
-2. Download the box. This also takes care of installing the necessary dependencies.
+2. Download the box by cloning this repository. Once the repo is downloaded use the following command to download all neccessary dependencies.
     ```javascript
-    truffle unbox drizzle
+    npm install
     ```
 
 3. Run the development blockchain, we recommend passing in a blocktime. Otherwise, its difficult to track things like loading indicators because Ganache will mine instantly.
