@@ -1,7 +1,3 @@
-# Drizzle Truffle Box
-
-This box comes with everything you need to start using smart contracts from a react app with Drizzle. It includes `drizzle`, `drizzle-react` and `drizzle-react-components` to give you a complete overview of Drizzle's capabilities.
-
 ## Installation
 
 1. Install Truffle and Ganache CLI globally. If you prefer, the graphical version of Ganache works as well!
@@ -57,7 +53,7 @@ This box comes with everything you need to start using smart contracts from a re
 
 * __Where do I find more information about Drizzle?__
 
-    Check out our [documentation](http://truffleframework.com/docs/drizzle/getting-started) or any of the three repositories ([`drizzle`](https://github.com/trufflesuite/drizzle), [`drizzle-react`](https://github.com/trufflesuite/drizzle-react), [`drizzle-react-components`](https://github.com/trufflesuite/drizzle-react-components)).
+    Check out the [documentation](http://truffleframework.com/docs/drizzle/getting-started) or any of the three repositories ([`drizzle`](https://github.com/trufflesuite/drizzle), [`drizzle-react`](https://github.com/trufflesuite/drizzle-react), [`drizzle-react-components`](https://github.com/trufflesuite/drizzle-react-components)).
 
 * __Why is there both a truffle.js file and a truffle-config.js file?__
 
