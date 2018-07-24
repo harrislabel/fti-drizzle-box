@@ -19,11 +19,12 @@
     // 3 second blocktime.
     ganache-cli -b 3
     ```
+If you prefer the desktop client, open that instead and configure your settings as follows: port 8545 and mining time somewhere between 3 and 15 seconds.
 
-4. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with `truffle`.
+4. Compile and migrate the smart contracts.
     ```javascript
-    compile
-    migrate
+    truffle compile
+    truffle migrate
     ```
 
 5. Run the webpack server for front-end hot reloading (outside the development console). Smart contract changes must be manually recompiled and migrated.
@@ -32,11 +33,8 @@
     npm run start
     ```
 
-6. Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
+6. Truffle can run tests written in Solidity or JavaScript against your smart contracts. 
     ```javascript
-    // If inside the development console.
-    test
-
     // If outside the development console..
     truffle test
     ```
