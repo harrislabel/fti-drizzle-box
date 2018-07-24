@@ -5,6 +5,9 @@
     npm install -g truffle
     npm install -g ganache-cli
     ```
+    
+    Instead of downloading ganache-cli, you also have the option to download the [Ganache Desktop Client](https://truffleframework.com/ganache). This is a nice tool that allows you to run a private Ethereum test network and see all your accounts, block validations and transaction logs.
+    
 
 2. Download the box. This also takes care of installing the necessary dependencies.
     ```javascript
